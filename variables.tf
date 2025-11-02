@@ -7,19 +7,19 @@ variable "environment" {
 }
 
 variable "sg_name" {
-  type = string
+  type        = string
 }
 
 variable "sg_description" {
-  type = string
+  type        = string
   default = ""
 }
 
 variable "vpc_id" {
-  type = string
+    type = string
 }
 
 variable "sg_tags" {
-  type = map
-  default = {}
+    type = map
+    default = {}
 }
