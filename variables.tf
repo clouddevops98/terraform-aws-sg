@@ -12,7 +12,7 @@ variable "sg_name" {
 
 variable "sg_description" {
   type = string
-  description = "value"
+  description = ""
 }
 
 variable "vpc_id" {
